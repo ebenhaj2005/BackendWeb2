@@ -64,17 +64,7 @@ In another terminal, open the MongoDB shell with:
 mongo
 
 Step 2: Create a New Database
-In MongoDB, databases are created implicitly when you insert data into them. Here’s how to explicitly create one:
 
-MongoDB Shell (mongosh)
-Open the MongoDB shell.
-Run the following commands to create and switch to the database:
-use BackendWeb2
-
-   ```bash
-   PORT=3000
-   DATABASE_URL=<JOUW_MONGODB_CONNECTION_STRING>
-```
 ### 4. Set up environment variables
 
 Create a `.env` file in the project root directory to store sensitive information such as the database credentials. For example:
@@ -90,3 +80,8 @@ MONGO_URI= MongoDB-CONNECTIONSTRING.
 ### 7. Test the API
 
 You can now test the API using Postman or any other API testing tool. You can access the full API documentation at the root endpoint (`/`).
+
+### 8. Acknowledgments
+Used chatgpt for error fixing
+https://www.mongodb.com/ 
+https://www.npmjs.com/package/express 
